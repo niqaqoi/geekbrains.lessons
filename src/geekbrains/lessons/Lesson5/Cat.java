@@ -1,10 +1,10 @@
 package geekbrains.lessons.Lesson5;
 
 public class Cat {
-    private String name = "Bob";
-    public String color;
+    private String name;
+    private String color;
 
-    public int age;
+    private int age;
 
     Cat(String name, String color, int age) {
         this.name = name;
@@ -13,11 +13,13 @@ public class Cat {
     }
 
     Cat(String color, int age) {
+        this.name = name;
         this.color = color;
         this.age = age;
     }
 
     public void meow() {
+
         System.out.println("Say meow...");
     }
 
@@ -42,8 +44,6 @@ public class Cat {
     }
 
     public void setAge(int age) {
-        if (age > 5) {
-            this.age = age;
-        }
+        this.age = age;
     }
 }
