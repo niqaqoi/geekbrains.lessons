@@ -11,9 +11,9 @@ public class Main {
         staff[2] = new Employee("Fedor", "Middle Dev", "fedor@it.com", "9193", 4000, 42);
         staff[3] = new Employee("Alex", "Middle Dev", "alex@it.com", "9194", 4000, 35);
         staff[4] = new Employee("Maks", "Junior Dev", "maks@it.com", "9195", 2000, 20);
-        for (int i = 0; i < staff.length; i++) {
-            if (staff[i].getAge() > AGE) {
-                System.out.println(staff[i]);;
+        for (Employee st: staff) {
+            if (st.getAge() > AGE) {
+                System.out.println(st);
             }
         }
     }

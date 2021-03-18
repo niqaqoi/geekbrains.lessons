@@ -13,7 +13,6 @@ public class Cat {
     }
 
     Cat(String color, int age) {
-        this.name = name;
         this.color = color;
         this.age = age;
     }

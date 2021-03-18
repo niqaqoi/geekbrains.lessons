@@ -1,6 +1,6 @@
 package geekbrains.lessons.taskLesson5;
 
-public class Employee<staff> {
+public class Employee {
     private String name;
     private String position;
     private String email;
